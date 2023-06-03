@@ -1,0 +1,67 @@
+<div class="cart-container">
+  <div class="empty-cart-message" *ngIf="cartItems.length===0">
+    <h3>Your shopping cart is empty</h3>
+  </div>
+  <div class="cart-panel" *ngIf="cartItems.length>0">
+    <mat-card *ngFor="let cartItem of cartItems" class="cart-item test mat-elevation-z6">
+    <div class="cart-item-content">
+      <div class="testy">
+      <img mat-card-image [src]="cartItem.product.url" alt="product photo"/>
+    </div>
+      <div class="cart-item-details">
+        <h3>{{ cartItem.product.name }}</h3>
+        <p>${{ cartItem.product.price }}</p>
+        <input
+          class="number-input form-control"
+          type="number"
+          min="1"
+          (input)="quantityChangeHandler(cartItem, $event)"
+          [value]="cartItem.quantity"/>
+        <br/>
+        <br>
+        <button mat-raised-button  color="warn" class="btn btn-danger" (click)="removeItem(cartItem)">Remove item</button>
+      </div>
+    </div>
+    </mat-card>
+  </div>
+  <div class="checkout-info">
+    <p id="total" *ngIf="cartItems.length>0">Total: ${{ totalPrice }}</p>
+    <br>
+    <form #form="ngForm" (ngSubmit)="submitForm()" *ngIf="cartItems.length>0">
+      <mat-label for="name">full name:  </mat-label>
+      <input matInput required minlength="3" maxlength="32" class="form-control"
+      type="text" name="name" placeholder="Minimum 3 characters"
+      [(ngModel)]="name"
+      (ngModelChange)="formNameChange($event)"/>
+      <br>
+      <br>
+      <label for="address">address:  </label>
+      <input
+        required
+        minlength="6"
+        maxlength="32"
+        class="form-control"
+        type="text"
+        name="address"
+        placeholder="Minimum 6 characters"
+        [(ngModel)]="address"
+        (ngModelChange)="formAddressChange($event)"/>
+      <br>
+      <br>
+      <label for="card">payment card number:  </label>
+      <input
+        required
+        pattern="[0-9]{16}"
+        class="form-control"
+        type="number"
+        name="card"
+        placeholder="(16-digit number)"
+        [(ngModel)]="paymentNumber"
+        (ngModelChange)="formPaymentChange($event)"/>
+      <label>  your payment data is secure and not shared with 3rd parties</label>
+      <br>
+      <br>
+      <input class="btn btn-primary" [disabled]="form.invalid" type="submit" value="Submit" />
+    </form>
+  </div>
+</div>

@@ -1,8 +1,10 @@
 .flex {
+  margin-left: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
-  align-items:flex-start;
+  align-items:flex-start center;
   justify-content: flex-start;
+  align-self: center;
 }

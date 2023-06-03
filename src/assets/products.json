@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "samsung galaxy s22 5G",
+    "price": 799,
+    "category": "smartphone",
+    "description": "For Gen Z, video isn’t just video. They think of it as a lifestyle – a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That’s why they’re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z’s native language; video. With this new video machine, we’re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos. Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn’t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that’s so bright, you’ll never have to worry about glare on the beach again. Galaxy S22 is redefining the epic standard – both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you’ve got something to say, Galaxy S22 makes it possible to say anything you want with video, at any time-even in the darkness of night. Supports Full HD video with up to 60 fps. Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 25W charging. Requires all participants have Galaxy S22 devices with Android 12 OS.",
+    "specs": {
+      "display": "6.1 FHD+ Flat Screen. 48-120Hz Adaptive Refresh Rate",
+      "chipset": "Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm) - ROW",
+      "storage": "8GB RAM | 128GB Storage",
+      "camera": "Rear Camera: 50MP Wide, 10mp 3x telephoto, 12mp ultrawide. Front Camera: 10MP",
+      "battery": "3,700mAh (25W Charging). Wireless Charging 2.0 (15W). Wireless PowerShare"
+    },
+    "url": "https://m.media-amazon.com/images/I/71c5rhsUkxL._AC_SX679_.jpg",
+    "url2": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-5g-4.jpg"
+  },
+  {
+    "id": 2,
+    "name": "samsung galaxy s22+ 5G",
+    "price": 899,
+    "category": "smartphone",
+    "description": "For Gen Z, video isn’t just video. They think of it as a lifestyle – a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That’s why they’re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z’s native language; video. With this new video machine, we’re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos. Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn’t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that’s so bright, you’ll never have to worry about glare on the beach again. Galaxy S22 is redefining the epic standard – both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you’ve got something to say, Galaxy S22 makes it possible to say anything you want with video, at any time-even in the darkness of night. Supports Full HD video with up to 60 fps. Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 25W charging. Requires all participants have Galaxy S22 devices with Android 12 OS.",
+    "specs": {
+      "display": "6.6 FHD+ Flat Screen. 48-120Hz Adaptive Refresh Rate",
+      "chipset": "Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm) - ROW",
+      "storage": "8GB RAM | 128GB Storage",
+      "camera": "Rear Camera: 50MP Wide, 10mp 3x telephoto, 12mp ultrawide. Front Camera: 10MP",
+      "battery": "4,500mAh (45W Charging). Wireless Charging 2.0 (15W). Wireless PowerShare"
+    },
+    "url": "https://m.media-amazon.com/images/I/71VawMP6R1L._AC_SX679_.jpg",
+    "url2": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-plus-5g-3.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi 12 pro",
+    "price": 999,
+    "category": "smartphone",
+    "description": "Evolving from our constant pursuit of excellence in creating what you are longing for, Xiaomi 12 Pro is now ready to master every scene with a pro-grade 50MP triple camera array, WQHD+ dynamic 120Hz display, the most advanced Snapdragon® 8 Gen 1 chipset yet, and intelligent 120W Xiaomi HyperCharge.",
+    "specs": {
+      "display": "WQHD+ 6.73 AMOLED DotDisplayAspect ratio: 20:9, 3200 x 1440 120hz refresh rate LTPO",
+      "chipset": "Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)",
+      "storage": "12GB RAM | 256GB Storage",
+      "camera": "Rear Camera: 50mp Wide, 50mp 2x telephoto, 50mp ultrawide. Front Camera: 20MP",
+      "battery": "4600mAh (120W Charging). Wireless Charging (50W). Wireless reverse charging (10W)"
+    },
+    "url": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-12-1.jpg",
+    "url2": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-12-2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "apple iphone 13 pro",
+    "price": 999,
+    "category": "smartphone",
+    "description": "iPhone 13 Pro takes a huge leap forward, bringing incredible speed to everything you do and dramatic new photo and video capabilities — all in two great sizes.",
+    "specs": {
+      "display": "6.1-inch Super Retina XDR display with ProMotion",
+      "chipset": "A15 Bionic chip with 6-core CPU (2 performance and 4 efficiency cores), 5-core GPU, and 16-core Neural Engine",
+      "storage": "6GB RAM | 128GB Storage",
+      "camera": "Rear Camera: Pro 12MP camera system (Ultra Wide, Wide, and Telephoto). Front Camera: 12MP TrueDepth camera",
+      "battery": "3095 mAh Fast charging 23W, 50% in 30 min (advertised) USB Power Delivery 2.0 MagSafe wireless charging 15W"
+    },
+    "url": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-01.jpg",
+    "url2": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "apple iphone 13 pro max",
+    "price": 1099,
+    "category": "smartphone",
+    "description": "iPhone 13 Pro takes a huge leap forward, bringing incredible speed to everything you do and dramatic new photo and video capabilities — all in two great sizes.",
+    "specs": {
+      "display": "6.7-inch Super Retina XDR display with ProMotion",
+      "chipset": "A15 Bionic chip with 6-core CPU (2 performance and 4 efficiency cores), 5-core GPU, and 16-core Neural Engine",
+      "storage": "6GB RAM | 128GB Storage",
+      "camera": "Rear Camera: Pro 12MP camera system (Ultra Wide, Wide, and Telephoto). Front Camera: 12MP TrueDepth camera",
+      "battery": "4352 mAh Fast charging 27W, 50% in 30 min (advertised) USB Power Delivery 2.0 MagSafe wireless charging 15W"
+    },
+    "url": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-5.jpg",
+    "url2": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "samsung galaxy z fold 4",
+    "price": 1999,
+    "category": "smartphone",
+    "description": "Meet the new Galaxy Z Fold4, the tough foldable that brings PC-like power to your pocket. Unfold your world with an immersive display and Nightography.",
+    "specs": {
+      "display": "main: 7.6 Dynamic AMOLED 2X, cover: 6.2 Dynamic AMOLED 2X",
+      "chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)",
+      "storage": "12GB RAM | 256GB Storage",
+      "camera": "Rear Camera: 50MP Wide, 12MP Ultra Wide, 10mp 3x telephoto. Front Camera: 10mp",
+      "battery": "4400mAh Fast charging 25W, 50% in 30 min (advertised) Fast wireless charging 15W Reverse wireless charging 4.5W"
+    },
+    "url": "https://m.media-amazon.com/images/I/71DhIuzEemL._AC_SX679_.jpg",
+    "url2": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-fold4-5g-3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "samsung galaxy s22 ultra 5G",
+    "price": 1099,
+    "category": "smartphone",
+    "description": "For Gen Z, video isn’t just video. They think of it as a lifestyle – a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That’s why they’re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z’s native language; video. With this new video machine, we’re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos. Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn’t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that’s so bright, you’ll never have to worry about glare on the beach again. Galaxy S22 is redefining the epic standard – both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you’ve got something to say, Galaxy S22 makes it possible to say anything you want with video, at any time-even in the darkness of night. Supports Full HD video with up to 60 fps. Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 25W charging. Requires all participants have Galaxy S22 devices with Android 12 OS.",
+    "specs": {
+      "display": "6.8 WQHD+ Edge Screen. 120Hz Adaptive Refresh Rate",
+      "chipset": "Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm) - ROW",
+      "storage": "12GB RAM | 256GB Storage",
+      "camera": "Rear Camera: 108MP Wide, 10mp 3x telephoto, 10mp 10x telephoto, 12mp ultrawide. Front Camera: 40MP",
+      "battery": "5,000mAh (45W Charging). Wireless Charging 2.0 (15W). Wireless PowerShare"
+    },
+    "url": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-ultra-5g-2.jpg",
+    "url2": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-ultra-5g-4.jpg"
+  },
+  {
+    "id": 8,
+    "name": "samsung galaxy z flip 4",
+    "price": 999,
+    "category": "smartphone",
+    "description": "Unfold your world with next-level expression. Samsung Galaxy Z Flip4 offers compact portability that conveniently moves with your lifestyle. This is the phone that is uniquely you, with an innovative design, stylish colors, and custom accessories. Capture hands-free selfies, photos and videos wherever you go. With your Galaxy Z Flip4 in Flex Mode, it’s easy to do two things at once. Read notifications on the customizable cover screen while your phone stays compact, and your full screen stays private. Pick your perfect color and make your phone your favorite accessory. Keep your phone in your pocket and stay up to date from your wrist when synced with your Galaxy Watch. Jam out at the gym or carry on with your calls when you sync your Galaxy Z Flip4 and Galaxy Buds. Built for fun, built for life. Folding screen technology that stands the test of time.",
+    "specs": {
+      "display": "6.7 dynamic amoled Screen 120Hz Refresh Rate, 1.9 super amoled cover screen",
+      "chipset": "Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)",
+      "storage": "8GB RAM | 128GB Storage",
+      "camera": "Rear Camera: 108MP Wide, 10mp 3x telephoto, 10mp 10x telephoto, 12mp ultrawide. Front Camera: 40MP",
+      "battery": "5,000mAh (45W Charging). Wireless Charging 2.0 (15W). Wireless PowerShare"
+    },
+    "url": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-flip4-5g-01.jpg",
+    "url2": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-flip4-5g-02.jpg"
+  }
+]

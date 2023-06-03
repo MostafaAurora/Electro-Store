@@ -1,27 +1,26 @@
-# ElectroStore
+# ElectroStore by Mostafa Mohamed Mohamed Imam
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 
-## Development server
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Startup instructions
+- run the command "npm install" in terminal
+- run the command "npm install -g @angular/cli" in terminal
+- run the command "ng serve" in terminal
+- open localhost:4200 in browser
 
-## Code scaffolding
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Project description
+- electro store is an online smartphone store that uses angular to compartmentalize the application to components that share data between themselves and   utilizes angular routing to make a single page application i.e eliminating the need for reloading to go to other page views.
 
-## Build
+- the application has a main product list view, a product detail view, a cart view, and a confirmation view upon a successful order.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- the main product list view has product components showing an image of the product i.e smartphone and it's name, upon hovering on a smartphone card the card will elevate and expand showing brief specs about the smartphone, users have the option to add a product to cart directly from list view.
 
-## Running unit tests
+- the product detail view has an image of the smartphone, a description, price, and specs, the product detail view offers the option to change the quantity of the smartphone(s) to be added to cart.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- the cart view shows smartphones in the cart with the ability to remove an item, users can edit the quantity of an item from the cart, the cart view has a validated forum to be filled with the necessary data to making an order, upon a successful order users will be redirected to an order success page with a thanking message as well as details about shipping time.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- the project uses angular material library and css for styling. 

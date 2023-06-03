@@ -1,0 +1,40 @@
+<mat-card  *ngIf="isActive==false" class="test mat-elevation-z4" (mouseover)="isActive=true" (mouseleave)="isActive=false">
+  <mat-divider class="devider"></mat-divider>
+  <div class="test4">
+    <img matCardImage [routerLink]="'products/' + product.id" src={{product.url}}>
+  </div>
+  <mat-divider class="devider"></mat-divider>
+    <mat-card-content class="simple-view">
+        {{product.name}}
+    </mat-card-content>
+    <mat-card-footer>
+        <button mat-raised-button color="primary" class="test5" (click)="toCart() ">add to cart | {{product.price}}$</button>
+    </mat-card-footer>
+</mat-card>
+
+
+<mat-card   *ngIf="isActive==true" class="test mat-elevation-z15" (mouseover)="isActive=true" (mouseleave)="isActive=false">
+    <div class="specs-view">{{product.name}}</div>
+  <mat-divider class="devider"></mat-divider>
+  <div class="test4">
+    <img matCardImage [routerLink]="'products/' + product.id" src={{product.url}}>
+  </div>
+  <mat-divider class="devider"></mat-divider>
+    <mat-card-content class="content">
+      <p>
+        Display: {{product.specs?.display}}
+        <br>
+        Chipset: {{product.specs?.chipset}}
+        <br>
+        Storage: {{product.specs?.storage}}
+        <br>
+        Camera: {{product.specs?.camera}}
+        <br>
+        Battery: {{product.specs?.battery}}
+      </p>
+    </mat-card-content>
+    <mat-card-footer>
+        <button mat-raised-button color="primary" class="test5" (click)="toCart()">add to cart | {{product.price}}$</button>
+    </mat-card-footer>
+</mat-card>
+

@@ -1,0 +1,28 @@
+.select-input {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.product-detail-container {
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+
+img {
+  border-radius: 10px;
+  width: 350px;
+}
+
+.details {
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.back-link {
+  cursor: pointer;
+  display: block;
+  margin-top: 15px;
+}

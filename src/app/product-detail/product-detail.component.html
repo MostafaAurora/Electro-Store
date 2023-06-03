@@ -1,0 +1,39 @@
+<div class="product-detail-container">
+  <img [src]="product.url" alt="product photo" />
+  <div class="details">
+    <h3>{{ product.name }}</h3>
+    <p>${{ product.price }}</p>
+    <p>{{ product.description }}</p>
+    <div class="specs">
+      <h3>specs</h3>
+      <p>
+      Display: {{product.specs?.display}}
+      <br>
+      Chipset: {{product.specs?.chipset}}
+      <br>
+      Storage: {{product.specs?.storage}}
+      <br>
+      Camera: {{product.specs?.camera}}
+      <br>
+      Battery: {{product.specs?.battery}}
+      </p>
+    </div>
+    <select [(ngModel)]="quantity" name="amount"class="select-input">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+    <br />
+    <button mat-raised-button color="primary" (click)="addToCart()">
+      Add to cart
+    </button>
+    <a [routerLink]="'/'" class="back-link">← Back to product list</a>
+  </div>
+</div>
